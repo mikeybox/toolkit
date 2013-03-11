@@ -34,6 +34,7 @@
     "grunt-contrib-cssmin": "~0.4",
     "grunt-contrib-stylus": "~0.5",
     "grunt-contrib-qunit": "~0.2",
+    "grunt-init": "~0.2",
     "phantom": "0.3.5",
     "cdir": "0.1.2"
   },
