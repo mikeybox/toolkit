@@ -31,9 +31,9 @@
     "grunt-jasmine-task": "0.2.3",
     "grunt-contrib-clean": "~0.4",
     "grunt-contrib-copy": "~0.4",
-    "grunt-contrib-less": "~0.4",
-    "grunt-contrib-mincss": "~0.4",
-    "grunt-contrib-stylus": "~0.4",
+    "grunt-contrib-less": "~0.5",
+    "grunt-contrib-cssmin": "~0.4",
+    "grunt-contrib-stylus": "~0.5",
     "phantom": "0.3.5",
     "cdir": "0.1.2"
   },
