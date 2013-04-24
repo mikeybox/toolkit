@@ -1,0 +1,107 @@
+/**
+ * BBY Reset based off YUI-3 Reset.
+ */
+
+.bby div,
+.bby dl,
+.bby dt,
+.bby dd,
+.bby ul,
+.bby ol,
+.bby li,
+.bby h1,
+.bby h2,
+.bby h3,
+.bby h4,
+.bby h5,
+.bby h6,
+.bby pre,
+.bby code,
+.bby form,
+.bby fieldset,
+.bby legend,
+.bby input,
+.bby textarea,
+.bby p,
+.bby blockquote,
+.bby th,
+.bby td {
+	margin:0;
+	padding:0;
+}
+.bby table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+.bby fieldset,
+.bby img {
+	border:0;
+}
+
+.bby address,
+.bby caption,
+.bby cite,
+.bby code,
+.bby dfn,
+.bby em,
+.bby strong,
+.bby th,
+.bby var {
+	font-style:normal;
+	font-weight:normal;
+}
+ 
+.bby ol,
+.bby ul {
+	list-style:none;
+}
+ 
+.bby caption,
+.bby th {
+	text-align:left;
+}
+.bby h1,
+.bby h2,
+.bby h3,
+.bby h4,
+.bby h5,
+.bby h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+.bby q:before,
+.bby q:after {
+	content:'';
+}
+.bby abbr,
+.bby acronym {
+	border:0;
+	font-variant:normal;
+}
+
+/* to preserve line-height and selector appearance */
+.bby sup {
+	vertical-align:text-top;
+}
+.bby sub {
+	vertical-align:text-bottom;
+}
+.bby input,
+.bby textarea,
+.bby select {
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;
+}
+
+/*to enable resizing for IE*/
+.bby input,
+.bby textarea,
+.bby select {
+	*font-size:100%;
+}
+
+/*because legend doesn't inherit in IE */
+.bby legend {
+	color:#000;
+}
